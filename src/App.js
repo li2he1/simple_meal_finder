@@ -1,18 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { Provider } from "react-redux";
+import "./App.css";
+import Landing from "./components/home/Landing";
 
-
-import FoodList from './js/components/FoodList/foodList';
-import SearchBar from './js/components/SearchBar/searchBar';
-import FoodForm from './js/components/FoodForm/foodForm';
+import store from "./store";
 
 function App() {
   return (
-    <div className="container">
-      <SearchBar />
-      <FoodList />
-      <FoodForm />
-    </div>
+    <Provider store={store}>
+      <Landing />
+    </Provider>
   );
 }
 
