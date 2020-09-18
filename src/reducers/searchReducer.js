@@ -18,6 +18,7 @@ export default function (state = initialState, action) {
         ...state,
         meals: action.payload,
       };
+    
     default:
       return state;
   }

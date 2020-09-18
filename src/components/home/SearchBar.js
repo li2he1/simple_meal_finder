@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./searchBar.css";
 import { connect } from "react-redux";
-import { searchMeal, fetchMeals } from "../../actions/searchActions";
+import { searchMeal, fetchMeals, randomMeals } from "../../actions/searchActions";
 
 export class SearchForm extends Component {
   onChange = (e) => {
@@ -12,6 +12,10 @@ export class SearchForm extends Component {
     e.preventDefault();
     this.props.fetchMeals(this.props.text);
   };
+
+  onClick =() => {
+    this.props.randomMeals();
+  }
 
   render() {
     return (
@@ -30,8 +34,8 @@ export class SearchForm extends Component {
                 <i className="fas fa-search">Search</i>
               </button>
             </form>
-            <button className="random-btn" id="random">
-              <i className="fas fa-random"></i>
+            <button className="random-btn" id="random" onClick={this.onClick}>
+              <i className="fas fa-random">Random</i>
             </button>
           </div>
         </div>
@@ -44,4 +48,4 @@ const mapStateToProps = (state) => ({
   text: state.meals.text,
 });
 
-export default connect(mapStateToProps, { searchMeal, fetchMeals })(SearchForm);
+export default connect(mapStateToProps, { searchMeal, fetchMeals,randomMeals })(SearchForm);
