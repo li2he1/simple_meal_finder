@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simple_meal_finder/static/css/main.9dcab7d2.chunk.css",
+    "main.js": "/simple_meal_finder/static/js/main.ad6c54b1.chunk.js",
+    "main.js.map": "/simple_meal_finder/static/js/main.ad6c54b1.chunk.js.map",
+    "runtime-main.js": "/simple_meal_finder/static/js/runtime-main.0e28842c.js",
+    "runtime-main.js.map": "/simple_meal_finder/static/js/runtime-main.0e28842c.js.map",
+    "static/js/2.65c59741.chunk.js": "/simple_meal_finder/static/js/2.65c59741.chunk.js",
+    "static/js/2.65c59741.chunk.js.map": "/simple_meal_finder/static/js/2.65c59741.chunk.js.map",
+    "index.html": "/simple_meal_finder/index.html",
+    "precache-manifest.d42a73ff883ee6fd90cc1065f9304a1e.js": "/simple_meal_finder/precache-manifest.d42a73ff883ee6fd90cc1065f9304a1e.js",
+    "service-worker.js": "/simple_meal_finder/service-worker.js",
+    "static/css/main.9dcab7d2.chunk.css.map": "/simple_meal_finder/static/css/main.9dcab7d2.chunk.css.map",
+    "static/js/2.65c59741.chunk.js.LICENSE.txt": "/simple_meal_finder/static/js/2.65c59741.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e28842c.js",
+    "static/js/2.65c59741.chunk.js",
+    "static/css/main.9dcab7d2.chunk.css",
+    "static/js/main.ad6c54b1.chunk.js"
+  ]
+}
