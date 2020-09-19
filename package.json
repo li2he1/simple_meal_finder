@@ -1,4 +1,4 @@
-{ "homepage": "https://li2he1.github.io/simple_meal_finder/",
+{ 
   "name": "simple_meal_finder",
   "version": "0.1.0",
   "private": true,
@@ -20,9 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy":"yarn build",
-    "deploy":"gh-pages -d build"
+    "eject": "react-scripts eject"
 
   },
   "eslintConfig": {
