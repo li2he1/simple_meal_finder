@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d82a3b039b44290393d628d209b5f72f",
+    "revision": "970d50740de1149e981a976c2810fa14",
     "url": "/simple_meal_finder/index.html"
   },
   {
-    "revision": "4ddb3036d22b251cf8e8",
+    "revision": "48a6b159ee5cee81ac01",
     "url": "/simple_meal_finder/static/css/main.9dcab7d2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simple_meal_finder/static/js/2.65c59741.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ddb3036d22b251cf8e8",
-    "url": "/simple_meal_finder/static/js/main.ad6c54b1.chunk.js"
+    "revision": "48a6b159ee5cee81ac01",
+    "url": "/simple_meal_finder/static/js/main.ff542099.chunk.js"
   },
   {
     "revision": "f86bec3917a3b8ea5475",
