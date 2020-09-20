@@ -28,7 +28,7 @@ class Recipe extends React.Component {
                   <span><a href={recipe.strSource}>{recipe.strSource}</a></span>
                 </p>
                 <button className="active-recipe__button">
-                    <Link to="/">Go Home</Link>
+                    <Link to="/simple_meal_finder/">Go Home</Link>
                 </button>
               </div>
             }

@@ -14,7 +14,7 @@ export class FoodList extends Component {
         </div>
         <button className="recipe_buttons">
           <Link to={{ 
-            pathname: `/recipe/${meal.idMeal}`,
+            pathname: `/simple_meal_finder/recipe/${meal.idMeal}`,
             state: { recipe: meal.idMeal }
           }}>View Recipe</Link>
         </button>
