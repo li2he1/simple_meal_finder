@@ -38,6 +38,7 @@
 
 .meal:hover .meal-info {
   opacity: 1;
+  color: rgb(250, 248, 248);
 }
 
 .single-meal {

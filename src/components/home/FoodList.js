@@ -7,17 +7,15 @@ export class FoodList extends Component {
     const { meal } = this.props;
     
     return (
-      <div className="meal">
+      <div className="meal"><Link to={{ 
+        pathname: `/recipe/${meal.idMeal}`,
+        state: { recipe: meal.idMeal }
+      }}>
         <img src={meal.strMealThumb} alt={meal.strMeal} />
         <div className="meal-info" data-mealid={meal.idMeal}> 
           <h3>{meal.strMeal}</h3>
         </div>
-        <button className="recipe_buttons">
-          <Link to={{ 
-            pathname: `/recipe/${meal.idMeal}`,
-            state: { recipe: meal.idMeal }
-          }}>View Recipe</Link>
-        </button>
+       </Link>
       </div>
 
     );
